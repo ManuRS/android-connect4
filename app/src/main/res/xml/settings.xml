@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/settingsv">
+
+        <ListPreference
+            android:key="figurecode"
+            android:title="@string/tipof"
+            android:summary="@string/mostrarl"
+            android:entries="@array/figures"
+            android:entryValues="@array/figureCodes"
+            android:dialogTitle="@string/choose" />
+
+        <ListPreference
+            android:key="colorcode"
+            android:title="@string/colorf"
+            android:summary="@string/mostrarl"
+            android:entries="@array/fondos"
+            android:entryValues="@array/fondosCodes"
+            android:dialogTitle="@string/choose" />
+
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/settingss">
+        <CheckBoxPreference
+            android:key="music"
+            android:title="@string/musicaf"
+            android:summary="@string/selectm" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/more">
+        <ListPreference
+            android:key="modo_bot"
+            android:title="@string/Dificutad"
+            android:summary="@string/mostrarl"
+            android:entries="@array/dificultad"
+            android:entryValues="@array/dificultadCodes"
+            android:dialogTitle="@string/choose" />
+
+        <ListPreference
+            android:key="modo_busqueda"
+            android:title="@string/ordenpartidas"
+            android:summary="@string/mostrarl"
+            android:entries="@array/busqueda"
+            android:entryValues="@array/busquedaCodes"
+            android:dialogTitle="@string/choose" />
+
+        <ListPreference
+            android:key="modo_mapa"
+            android:title="Mapa"
+            android:summary="@string/mostrarl"
+            android:entries="@array/mapa"
+            android:entryValues="@array/mapaCodes"
+            android:dialogTitle="@string/choose" />
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

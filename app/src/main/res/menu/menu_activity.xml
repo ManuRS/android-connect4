@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="@string/puntuacion"
+        android:id="@+id/compartirPuntGeneric"
+        android:icon="@drawable/ic_chat_white_48px"
+        app:showAsAction="ifRoom"/>
+
+    <!--<item
+        android:title="@string/preferences"
+        android:id="@+id/preferences"
+        android:icon="@android:drawable/ic_menu_preferences"
+        />!-->
+
+    <item
+        android:title="@string/logoutMenu"
+        android:id="@+id/logoutMenu"
+        android:icon="@android:drawable/presence_online"
+        />
+
+    <item
+        android:title="@string/about"
+        android:id="@+id/aboutMenu"
+        android:icon="@android:drawable/ic_menu_info_details"
+        />
+
+    <item
+        android:title="@string/demo"
+        android:id="@+id/extraMenu"
+        android:icon="@android:drawable/ic_menu_more"
+        />
+
+</menu>
